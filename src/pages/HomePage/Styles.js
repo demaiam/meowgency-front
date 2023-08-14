@@ -13,7 +13,7 @@ export const MediaScroller = styled.div`
   gap: 10px;
   grid-auto-flow: column;
   grid-auto-columns: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   padding: 10px;

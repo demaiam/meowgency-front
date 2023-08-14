@@ -17,6 +17,7 @@ export default function HomePage() {
   const [state, setState] = useState("none");
 
   const { tokenContext } = useContext(Context);
+  localStorage.setItem("token", tokenContext);
 
   const navigate = useNavigate();
   

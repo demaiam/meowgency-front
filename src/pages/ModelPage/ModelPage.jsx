@@ -29,7 +29,6 @@ export default function ModelPage() {
   const { tokenContext } = useContext(Context);
 
 
-
   useEffect(() => {
     const config = {
       headers: {
@@ -95,21 +94,3 @@ export default function ModelPage() {
     </PageContainer>
   )
 }
-
-
-/*
-    {
-      name: "Nina",
-      breed: "A. Bobtail",
-      age: 2,
-      fur: "Orange",
-      weight: "4kg",
-      height: "40cm",
-      eyes: "blue",
-      rating: 4,
-      images: [
-        "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg?auto=compress&cs=tinysrgb&w=600"
-      ]
-    }
-*/
